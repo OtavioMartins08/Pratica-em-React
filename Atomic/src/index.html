@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sistema de Login</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <h1>Sistema de Login</h1>
+    </header>
+
+    <div class="form-wrapper">
+      <form class="form" id="login-form">
+        <h2>Login</h2>
+        <div class="form-group">
+          <label for="login-email">Email</label>
+          <input type="email" id="login-email" required>
+        </div>
+        <div class="form-group">
+          <label for="login-password">Senha</label>
+          <input type="password" id="login-password" required>
+        </div>
+        <button type="submit">Entrar</button>
+      </form>
+    </div>
+
+    <div class="form-wrapper">
+      <form class="form" id="signup-form">
+        <h2>Cadastro</h2>
+        <div class="form-group">
+          <label for="signup-name">Nome</label>
+          <input type="text" id="signup-name" required>
+        </div>
+        <div class="form-group">
+          <label for="signup-email">Email</label>
+          <input type="email" id="signup-email" required>
+        </div>
+        <div class="form-group">
+          <label for="signup-password">Senha</label>
+          <input type="password" id="signup-password" required>
+        </div>
+        <button type="submit">Cadastrar</button>
+      </form>
+    </div>
+
+    <div class="user-info" id="user-info">
+      <h2>Informações do Usuário</h2>
+      <p><strong>Nome:</strong> <span id="user-name"></span></p>
+      <p><strong>Email:</strong> <span id="user-email"></span></p>
+      <button id="logout-btn">Sair</button>
+    </div>
+
+    <footer class="footer">
+      <p>&copy; 2023 Sistema de Login</p>
+    </footer>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>

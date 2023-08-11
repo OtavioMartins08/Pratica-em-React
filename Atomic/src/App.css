@@ -1,0 +1,126 @@
+/* App.css */
+
+/* Estilos gerais do aplicativo */
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Estilos do cabeçalho */
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Estilos do rodapé */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Estilos do conteúdo */
+.content {
+  flex: 1;
+  padding: 20px;
+}
+
+/* Estilos do link do menu */
+.menu-link {
+  color: #333;
+  text-decoration: none;
+  padding: 5px 10px;
+  margin: 5px;
+  border: 1px solid #333;
+  border-radius: 4px;
+}
+
+.menu-link:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Estilos dos cards da vitrine */
+.card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  width: 200px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.card h3 {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.card p {
+  color: #777;
+}
+
+/* Estilos da página de detalhes */
+.details {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.details img {
+  width: 200px;
+  height: 200px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.details h2 {
+  font-size: 24px;
+}
+
+.details p {
+  color: #777;
+}
+
+/* Estilos do formulário */
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.form label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form input,
+.form textarea {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.form button {
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form button:hover {
+  background-color: #555;
+}

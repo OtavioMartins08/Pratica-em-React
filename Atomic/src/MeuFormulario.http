@@ -1,0 +1,11 @@
+@name=Enviar mais produtos...
+
+POST https://63069afec0d0f2b8011f9944.mockapi.io/produtos
+Content-Type: application/json
+
+{
+  "imagem": "https://th.bing.com/th/id/OIP.JmoWx7VW7VknuzVX9zXjTAHaFo?pid=ImgDet&rs=1",
+  "titulo": "Cheesecake de Morango",
+  "descricao": "O cheesecake de morango é uma sobremesa elegante e sofisticada. Com sua base de biscoito crocante e creme de cream cheese suave, ele é delicadamente finalizado com uma camada generosa de calda de morango fresco. Cada garfada é uma combinação perfeita de texturas e sabores, criando uma experiência única que agrada tanto aos olhos quanto ao paladar. Desfrute dessa delícia em momentos especiais!",
+  "valor": "R$ 7.50"
+}
